@@ -1,0 +1,27 @@
+.RollDice-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.RollDice-btn {
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.RollDice-btn:hover {
+  transform: translateY(-5%);
+}
+
+.RollDice-diceContainer {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0;
+}
